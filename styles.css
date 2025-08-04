@@ -6,7 +6,7 @@
 }
 
 header, main, footer {
-  padding: 50px 50px;
+  padding: 50px 200px;
   border: 1px solid red;
 }
 
@@ -19,9 +19,25 @@ header {
   justify-content: center;
 }
 
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
 nav ul{
  list-style-type: none;
- text-align: in;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #E5E7EB;
 }
 
 header h1{
@@ -33,4 +49,35 @@ header h1{
   font-size: 48px;
   color: #F9FAF8;
   font-weight: 900;
+}
+
+.hero {
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#image-placeholder {
+  background-color: rgb(114, 120, 124);
+  margin-top: 45px;
+  margin-left: 35px;
+  text-align: center;
+  padding: 100px 155px;
+  white-space: nowrap;
+}
+
+.hero-left {
+  margin-top: 45px;
+}
+
+.hero button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-size: 18px;
+  border-radius: 7px;
+  border-width: 0px;
+  padding: 5px 25px;
+  font-weight: 600;
+  margin-top: 20px;
 }
