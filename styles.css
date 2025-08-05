@@ -81,3 +81,36 @@ header h1{
   font-weight: 600;
   margin-top: 20px;
 }
+
+.random-info {
+  text-align: center;
+  color: grey;
+  margin: 50px auto;
+}
+
+.random-info h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  margin-top: 50px;
+}
+
+.box {
+  text-align: center;
+  width: 150px;
+  font-size: 15px;
+}
+
+.box-content {
+  border: #3882F6 solid 3px;
+  border-radius: 10%;
+  padding: 15px 15px;
+  height: 100px;
+}
