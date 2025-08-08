@@ -144,3 +144,31 @@ header h1{
   margin: 0 auto;
   padding: 0 20px;
 }
+
+.action {
+  background-color: #3882F6;
+  color:#F9FAF8;
+  font-size: 18px;
+  margin: 50px auto;
+  padding: 50px 150px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action button {
+  color: #F9FAF8;
+  font-size: 18px;
+  background-color: #3882F6;
+  border: 2px solid #F9FAF8;
+  position: relative;
+  float: right;
+  border-radius: 7px;
+  padding: 5px 25px;
+  font-weight: 600;
+  margin-top: 20px;
+  height: 40px;
+  width: 140px;
+  margin-left: 150px;
+}
